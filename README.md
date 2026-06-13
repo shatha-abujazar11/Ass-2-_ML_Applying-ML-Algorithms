@@ -17,8 +17,6 @@ This project applies supervised and unsupervised machine learning techniques to 
 
 The dataset contains customer demographics, income, spending habits, purchase history, and marketing campaign responses.
 
----
-
 ## Project Sections
 
 ### 1. Data Preprocessing
@@ -82,8 +80,6 @@ Evaluation:
 * PCA Visualization
 * Cluster Profiling
 
----
-
 ## Libraries Used
 
 * pandas
@@ -92,15 +88,11 @@ Evaluation:
 * seaborn
 * scikit-learn
 
----
-
 ## Repository Contents
 
 * Assignment2.ipynb
 * marketing_campaign.csv
 * README.md
-
----
 
 ## Instructor
 
