@@ -2,83 +2,104 @@
 
 ## Student Information
 
-* Name: Shatha Rasmy Abu Jazar
-* Student ID: 2320230176
+**Name:** Shatha Rasmy Abu Jazar
+**Student ID:** 2320230176
+
+## Assignment Overview
+
+This project applies supervised and unsupervised machine learning techniques to the Customer Personality Analysis dataset. The objective is to preprocess the data, engineer meaningful features, build predictive models, evaluate their performance, and perform customer segmentation.
 
 ## Dataset
 
-Customer Personality Analysis Dataset (marketing_campaign.csv)
+**Dataset:** Customer Personality Analysis Dataset
+**File:** marketing_campaign.csv
 
-## Assignment Objective
+The dataset contains customer demographics, income, spending habits, purchase history, and marketing campaign responses.
 
-The goal of this assignment is to apply supervised and unsupervised machine learning techniques to analyze customer behavior and marketing campaign responses.
+---
 
-## Tasks Completed
+## Project Sections
 
 ### 1. Data Preprocessing
 
-* Handled missing values using median imputation.
-* Created new features:
-
+* Missing value handling using median imputation.
+* Feature engineering:
   * Age
   * TotalSpending
   * TotalChildren
-* Removed unrealistic ages and zero-income records.
-* Encoded categorical variables.
+* Removal of unrealistic ages and zero-income records.
+* Label Encoding for Education.
+* One-Hot Encoding for Marital Status.
 
-### 2. Regression
+### 2. Exploratory Data Analysis (EDA)
 
-Target: TotalSpending
+* Income Distribution
+* Age Distribution
+* Correlation Heatmap
+* Class Distribution Visualization
+
+### 3. Regression
+
+**Target Variable:** TotalSpending
 
 Models:
 
 * Linear Regression
-* Ridge Regression
-* Decision Tree Regressor
+* Ridge Regression (alpha=1.0)
+* Decision Tree Regressor (max_depth=5)
 
-Evaluation Metrics:
+Evaluation:
 
 * MSE
 * RMSE
 * R² Score
 
-### 3. Classification
+### 4. Classification
 
-Target: Response
+**Target Variable:** Response
 
 Models:
 
-* Logistic Regression
+* Logistic Regression (class_weight='balanced')
 * K-Nearest Neighbors (KNN)
 * Random Forest Classifier
 
-Evaluation Metrics:
+Evaluation:
 
 * Accuracy
 * Precision
 * Recall
 * F1 Score
+* Classification Report
 * Confusion Matrix
 
-### 4. Clustering
+### 5. Clustering
 
+* StandardScaler
 * K-Means Clustering
 * Elbow Method
 * PCA Visualization
-* Customer Segmentation Analysis
+* Cluster Profiling
+
+---
 
 ## Libraries Used
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
 
-## Files
+---
+
+## Repository Contents
 
 * Assignment2.ipynb
 * marketing_campaign.csv
+* README.md
+
+---
 
 ## Instructor
 
